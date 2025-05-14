@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ListenerSuite">
+  <listeners>
+    <listener class-name="Listeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Listeners.SampleTest"/>
+    </classes>
+  </test>
+</suite>
